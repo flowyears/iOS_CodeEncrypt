@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "AngelCheckTool.h"
+
+
+
 @interface AppDelegate ()
 @property(nonatomic,strong)UIVisualEffectView *effectView;
 @end

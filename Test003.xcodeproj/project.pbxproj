@@ -18,6 +18,7 @@
 		A217A9892112DBDA0063E20F /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = A217A9872112DBDA0063E20F /* confuse.sh */; };
 		A217A98A2112DBDA0063E20F /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = A217A9882112DBDA0063E20F /* func.list */; };
 		A2FBA0F72126A28C00B4BA05 /* AngelCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FBA0F62126A28C00B4BA05 /* AngelCheckTool.m */; };
+		A2FBA13D2127C3FD00B4BA05 /* GolobalCFile.c in Sources */ = {isa = PBXBuildFile; fileRef = A2FBA13C2127C3FD00B4BA05 /* GolobalCFile.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		A217A98B2112DBFB0063E20F /* codeObfuscation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
 		A2FBA0F52126A28C00B4BA05 /* AngelCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngelCheckTool.h; sourceTree = "<group>"; };
 		A2FBA0F62126A28C00B4BA05 /* AngelCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngelCheckTool.m; sourceTree = "<group>"; };
+		A2FBA13B2127C3FD00B4BA05 /* GolobalCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolobalCFile.h; sourceTree = "<group>"; };
+		A2FBA13C2127C3FD00B4BA05 /* GolobalCFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GolobalCFile.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				A2FBA0F62126A28C00B4BA05 /* AngelCheckTool.m */,
 				A217A9572112DB4D0063E20F /* ViewController.h */,
 				A217A9582112DB4D0063E20F /* ViewController.m */,
+				A2FBA13B2127C3FD00B4BA05 /* GolobalCFile.h */,
+				A2FBA13C2127C3FD00B4BA05 /* GolobalCFile.c */,
 				A217A95A2112DB4D0063E20F /* Main.storyboard */,
 				A217A95D2112DB4E0063E20F /* Assets.xcassets */,
 				A217A95F2112DB4E0063E20F /* LaunchScreen.storyboard */,
@@ -298,6 +303,7 @@
 			files = (
 				A217A9592112DB4D0063E20F /* ViewController.m in Sources */,
 				A217A9642112DB4E0063E20F /* main.m in Sources */,
+				A2FBA13D2127C3FD00B4BA05 /* GolobalCFile.c in Sources */,
 				A2FBA0F72126A28C00B4BA05 /* AngelCheckTool.m in Sources */,
 				A217A9562112DB4D0063E20F /* AppDelegate.m in Sources */,
 			);
@@ -473,6 +479,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/Test003/PrefixHeader.pch;
 				INFOPLIST_FILE = Test003/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/Test003/PrefixHeader.pch;
 				INFOPLIST_FILE = Test003/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,9 +11,18 @@
 
 #import "codeObfuscation.h"
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#include "GolobalCFile.h"
 
 
+//字符串混淆加密 和 解密的宏开关
+#define ggh_confusion
+#ifdef ggh_confusion
+#define confusion_NSSTRING(string) [NSString stringWithUTF8String:(decryptConstString(string))]
+#define confusion_CSTRING(string) decryptConstString(string)
+#else
+#define confusion_NSSTRING(string) @string
+#define confusion_CSTRING(string) string
+#endif
 
 #endif /* PrefixHeader_pch */

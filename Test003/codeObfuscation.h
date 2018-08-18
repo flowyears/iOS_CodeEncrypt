@@ -1,9 +1,9 @@
 #ifndef Demo_codeObfuscation_h
 #define Demo_codeObfuscation_h
-//confuse string at Fri Aug 17 14:30:30 CST 2018
-#define sample iLwNABmmwERxWRWd
-#define seg1 pEbOJzZqQuTQuDaC
-#define seg2 BHmtYtyyEqZXcZff
-#define inserta tPgDwYpXdharkljG
-#define lalla USJcpVULXmdEKQkx
+//confuse string at Sat Aug 18 11:17:15 CST 2018
+#define sample deeZopbhFMVSWarC
+#define seg1 VisqgmSppSvMHkIM
+#define seg2 AZCBBMLYgcNFjoHK
+#define inserta kvpORUthpQSYvrvQ
+#define lalla LEnLUjbLoSfsaZAN
 #endif
